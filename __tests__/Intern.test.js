@@ -21,9 +21,9 @@ test('test to see if we can get the email from the getEmail() method', () => {
     expect(intern.email()).toBe('jsal721@gmail.com');
 });
 
-test('test to see if we get the school from the getSchool() method'), () => {
+test('test to see if we get the school from the getSchool() method', () => {
     expect(intern.school()).toBe('UCF');
-}
+});
 
 test('test to see if we can get the role from the getRole() method', () => {
     expect(intern.getRole()).toBe('intern');
