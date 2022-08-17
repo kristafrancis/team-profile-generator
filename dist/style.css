@@ -22,7 +22,7 @@ main {
 
 .card-header {
   color: white;
-  background-color: rgba(0, 0, 255, 0.584);
+  background-color: lightcoral
 }
 
 .list-group {
@@ -36,5 +36,5 @@ main {
 }
 
 #email {
-  color: rgba(0, 0, 255, 0.584);
+  color: lightblue
 }
