@@ -66,10 +66,10 @@ const generateTeam = (team) => {
             generateManager(team[i]);
         }
         if (team[i].getRole() === "Engineer") {
-            generateManager(team[i]);
+            generateEngineer(team[i]);
         }
         if (team[i].getRole() === "Intern") {
-            generateManager(team[i]);
+            generateIntern(team[i]);
         }
     }
 
@@ -105,3 +105,5 @@ module.exports = team => {
     </html>
         `;
     }
+
+    
